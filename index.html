@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин одежды</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__head">
+                    <div class="header__logo">
+                        <img class="header__logo__img" src="images/header/logo.svg" alt="Logo">
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li><a class="header__list__link" href="">Главная</a></li>
+                            <li><a class="header__list__link" href="">Товары</a></li>
+                            <li><a class="header__list__link cart" href=""><img class="header__list__img" src="images/header/shopping-cart.svg" alt="Shopping cart"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="header__body">
+                    <h1 class="header__title">Наша одежда - ваш комфорт</h1>
+                    <p class="header__text">Наш интернет-магазин предоставляет мужскую, женскую и детскую одежду и обувь. Мы заботимся о том, чтобы Вы получили максимум комфорта от нашей одежды.</p>
+                    <a class="header__arrow" href="#sorting">
+                        <img src="images/header/arrow.svg" alt="">
+                    </a>
+                </div>
+            </div><!-- /.header__inner -->
+        </div><!-- /.container -->
+    </header>
+
+    <section class="sorting" id="sorting">
+        <div class="container">
+            <div class="sorting__inner">
+                <ul class="sorting__list">
+                    <li class="sorting__item active">Мужчинам</li>
+                    <li class="sorting__item active">Женщинам</li>
+                    <li class="sorting__item">Детям</li>
+                </ul>
+                <button class="sorting__btn">Все товары</button>
+            </div>
+        </div><!-- /.conteiner -->
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="products__inner">
+                <div class="products__section products__men">
+                    <h2 class="products__title"><span>Мужчинам</span></h2>
+                    <div class="products__toggle">
+                        <div class="toggle__step">1 / 5</div>
+                        <a class="toggle__arrow toggle__arrow-prev" href=""></a>
+                        <a class="toggle__arrow toggle__arrow-next" href=""></a>
+                    </div>
+                    <div class="products__block__container">
+                        <div class="products__block">
+                            <div class="product">
+                                <div class="product__size">Размер</div>
+                                <ul class="product__list__colors">
+                                    <li><a class="product__color product__color__blue" href=""></a></li>
+                                    <li><a class="product__color product__color__yellow" href=""></a></li>
+                                    <li><a class="product__color product__color__dark-grey" href=""></a></li>
+                                </ul>
+                                <div class="product__name">Футболка</div>
+                                <div class="product__price">5,00<span class="product__currency">€</span></div>
+                                <img class="product__img" src="images/products/icon1.png" alt="">
+                            </div>
+                            <div class="product">
+                                <div class="product__size">Размер</div>
+                                <div class="product__name">Брюки FORCLAZ</div>
+                                <div class="product__price">30,00<span class="product__currency">€</span></div>
+                                <img class="product__img" src="images/products/icon2.png" alt="">
+                            </div>
+                            <div class="product">
+                                <div class="product__property">10 литров</div>
+                                <div class="product__name">Рюкзак</div>
+                                <div class="product__price">60,00<span class="product__currency">€</span></div>
+                                <img class="product__img" src="images/products/icon3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.products__men -->
+                <div class="products__section products__women">
+                    <h2 class="products__title"><span>Женщинам</span></h2>
+                    <div class="products__toggle">
+                        <div class="toggle__step">1 / 5</div>
+                        <a class="toggle__arrow toggle__arrow-prev" href=""></a>
+                        <a class="toggle__arrow toggle__arrow-next" href=""></a>
+                    </div>
+                    <div class="products__block__container">
+                        <div class="products__block">
+                            <div class="product">
+                                <div class="product__size">Размер</div>
+                                <div class="product__name">Жакет</div>
+                                <div class="product__price">60,00<span class="product__currency">€</span></div>
+                                <img class="product__img" src="images/products/icon4.png" alt="">
+                            </div>
+                            <div class="product">
+                                <div class="product__size">Размер</div>
+                                <div class="product__name">Кроссовки</div>
+                                <div class="product__price">80,00<span class="product__currency">€</span></div>
+                                <img class="product__img" src="images/products/icon5.png" alt="">
+                            </div>
+                            <div class="product">
+                                <div class="product__size">Размер</div>
+                                <ul class="product__list__colors">
+                                    <li><a class="product__color product__color__pink" href=""></a></li>
+                                    <li><a class="product__color product__color__white" href=""></a></li>
+                                </ul>
+                                <div class="product__name">Футболка</div>
+                                <div class="product__price">20,00<span class="product__currency">€</span></div>
+                                <img class="product__img" src="images/products/icon6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.products__women -->
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="container">
+            <div class="about-us__inner">
+                <h2 class="about-us__title">О нас</h2>
+                <p class="about-us__text">Наш интернет магазин имеет большой опыт обратной связи с клиентами. Благодяря вам мы можем предоставить удобную одежду для всей семьи.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__trekking">
+                    <h3 class="footer__title">Доставка</h2>
+                    <p class="footer__text">Мы заботимся о том, чтобы наши клиенты получили товар в самые короткие сроки. Это возможно благодаря нашим замечательным партнёрам по доставке.</p>
+                </div>
+                <div class="footer__info">
+                    <ul class="footer__list">
+                        <li><a class="footer__list__link" href="">Отзывы</a></li>
+                        <li><a class="footer__list__link" href="">Конфиденциальность</a></li>
+                        <li><a class="footer__list__link" href="">О нас</a></li>
+                        <li><a class="footer__list__link" href="">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__author">2020. Автор сайта: Соколов Олег</div>
+        </div>
+    </footer>
+            
+        
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
